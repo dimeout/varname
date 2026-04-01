@@ -3,26 +3,22 @@
 you can't name variables. i can't either. but at least one of us has an AI.
 
 ## install
-
-\```bash
+```bash
 npm install -g varname
-\```
+```
 
 ## setup
 
 get a free Gemini key at https://aistudio.google.com/app/apikey
-
-\```bash
+```bash
 export GEMINI_API_KEY=your_key_here
-\```
+```
 
 ## usage
-
-\```bash
+```bash
 varname "checks if user is logged in"
-\```
-
-\```
+```
+```
   suggestions for "checks if user is logged in":
 
     isLoggedIn
@@ -32,12 +28,11 @@ varname "checks if user is logged in"
     whyAreTheyNeverLoggedIn
 
   good luck. you'll need it.
-\```
-
-\```bash
+```
+```bash
 varname "the thing that breaks in prod every friday" --lang python
 echo "i have no idea what this does" | varname
-\```
+```
 
 ## does it give good names?
 
