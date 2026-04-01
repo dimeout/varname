@@ -1,10 +1,14 @@
 {
   "name": "varname",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "you can't name variables. i can't either. but at least one of us has an AI.",
+  "main": "dist/index.js",
+  "bin": {
+    "varname": "./dist/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/cli.js"
   },
   "keywords": [],
   "author": "",
